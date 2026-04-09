@@ -84,7 +84,9 @@ body:has(button:hover) #cursor-ring {
   z-index: 0;
   pointer-events: none;
 }
-
+.row{
+  border: 1px solid red !important
+}
 /* ══ NOISE ══ */
 .noise {
   position: fixed;
@@ -282,7 +284,7 @@ body:has(button:hover) #cursor-ring {
 .nav-drawer {
   display: none;
   /* faqat mobile */
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
