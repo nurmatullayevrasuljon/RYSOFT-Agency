@@ -84,8 +84,13 @@ body:has(button:hover) #cursor-ring {
   z-index: 0;
   pointer-events: none;
 }
-.row{
-  border: 1px solid red !important
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
 }
 /* ══ NOISE ══ */
 .noise {
