@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="main">
 
         <!-- Custom Cursor -->
         <div id="cursor"></div>
@@ -28,11 +28,11 @@
         <!-- ══ NAVBAR ══ -->
         <!-- ══ NAVBAR — HTML O'ZGARISHSIZ + burger + drawer qo'shildi ══ -->
         <nav class="nav" id="nav">
-            <a href="#" class="nav-logo">RYSOFT</a>
+            <a href="#main" class="nav-logo">RYSOFT</a>
 
             <!-- Desktop links (sizning mavjud HTML) -->
             <ul class="nav-links">
-                <li><a data-target="services">Xizmatlar</a></li>
+                <li><a href="#">Xizmatlar</a></li>
                 <li><a href="#">Loyihalar</a></li>
                 <li><a href="#">Jarayon</a></li>
             </ul>
@@ -53,9 +53,9 @@
         <!-- ── YANGI: mobile drawer ── -->
         <div class="nav-drawer" id="drawer" aria-hidden="true">
             <ul class="drawer-links">
-                <li><a data-target="Xizmatlar" class="drawer-link">Xizmatlar</a></li>
-                <li><a data-target="Loyihalar" class="drawer-link">Loyihalar</a></li>
-                <li><a data-target="Jarayon" class="drawer-link">Jarayon</a></li>
+                <li><a href="#" class="drawer-link">Xizmatlar</a></li>
+                <li><a href="#" class="drawer-link">Loyihalar</a></li>
+                <li><a href="#" class="drawer-link">Jarayon</a></li>
             </ul>
 
             <button class="drawer-cta"><span>Bog'lanish</span></button>
@@ -304,16 +304,17 @@
                                 <!-- Card 1 -->
                                 <div class="team-card">
                                     <div class="card-img-wrap">
-                                        <img src="img/IMG_20260329_205437_788.jpg"
-                                            alt="Jamshid Aliyev" />
+                                        <img src="img/IMG_20260329_205437_788.jpg" alt="Jamshid Aliyev" />
                                     </div>
                                     <div class="card-name">Rasuljon Nurmatullayev</div>
                                     <div class="card-role">SEO & Full-stack Developer</div>
                                     <p class="card-desc">Tez, xavfsiz va kengaytirilad­igan web tizimlar yaratadi.</p>
                                     <div class="card-socials">
-                                        <a href="https://github.com/nurmatullayevrasuljon" class="c-soc"><i class="fab fa-github"></i></a>
+                                        <a href="https://github.com/nurmatullayevrasuljon" class="c-soc"><i
+                                                class="fab fa-github"></i></a>
                                         <a href="#" class="c-soc"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://t.me/Rasuljonnurmatullayev" class="c-soc"><i class="fab fa-telegram"></i></a>
+                                        <a href="https://t.me/Rasuljonnurmatullayev" class="c-soc"><i
+                                                class="fab fa-telegram"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -577,9 +578,9 @@
                 </div>
             </div>
         </footer>
-
-        <script defer src="index.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <script defer src="index.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
